@@ -1,6 +1,7 @@
-/*  Processing doesn't support video with an alpha channel. 
+/*  Green-screen example. 
+    However it might be smarter to do the keying in After Effects and use a movie with an alpha channel. 
+    This will work realtime on a webcam though.
     
-    A solution is to render a video with a solid color (like a greenscreen) and filter that. 
     This sketch uses a Shader to remove a certain color. 
     You also can do it with a "pixel loop" like explained over here: https://processing.org/tutorials/pixels/
     However shaders a generally faster, because they are processed with the GPU instead of the CPU.

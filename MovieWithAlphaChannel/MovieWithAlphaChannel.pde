@@ -1,8 +1,11 @@
 /*
-Important:
-Use the P2D or P3D renderer.
-See size-tag.
-
+  Movies with an alpha channel are only supported in the P2D or P3D renderer. 
+  Set that in the size() function.
+  
+  Animation uses the Quicktime Animation Codec with an alpha channel. 
+  (See screenshot of the rendersettings in this folder). 
+  
+  Included Animation by Kiki van Marrewijk.
 */
 
 import processing.video.*;
